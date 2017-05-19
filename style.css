@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Karla|Lato");
+@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sanss|Quicksand");
 * {
   margin: 0;
   padding: 0; }
@@ -8,14 +8,40 @@ body {
   color: #0E2D3B; }
 
 .main-container {
-  max-width: 100%; }
+  max-width: 100%;
+  width: 100%;
+  height: 100vh; }
   .main-container .info-container {
-    margin: 3%; }
+    margin: 5% 10% 4% 10%;
+    width: 100%; }
     .main-container .info-container h1 {
-      font: 2em Karla, sans-serif;
-      font-weight: 900; }
-    .main-container .info-container p {
-      font: 1.2em Karla, sans-serif; }
-    .main-container .info-container .last-name {
-      color: #087F8C;
-      opacity: 0.5; }
+      font: 2.9em Quicksand, sans-serif;
+      font-weight: 900;
+      padding-bottom: 5%;
+      letter-spacing: 0.5px;
+      text-transform: lowercase; }
+    .main-container .info-container p#info-caption {
+      font: 1.9em Open Sans, sans-serif;
+      max-width: 45%;
+      text-transform: uppercase;
+      line-height: 1.2;
+      font-weight: 500;
+      letter-spacing: 1px; }
+    .main-container .info-container .blue-underline {
+      border-bottom: 0.12em solid #63ADF2;
+      box-shadow: inset 0 -5px 0 #63ADF2; }
+  .main-container .about-me-info {
+    margin: 5% 0 0 10%;
+    width: 100%;
+    font: 1.4em Open Sans, sans-serif; }
+    .main-container .about-me-info p {
+      line-height: 1.4;
+      font-weight: 500; }
+    .main-container .about-me-info ul.skills-list {
+      padding-top: 3%;
+      list-style-type: none; }
+    .main-container .about-me-info li {
+      display: inline-block; }
+      .main-container .about-me-info li img {
+        height: 75px;
+        width: 75px; }
