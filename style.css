@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Karla|Lato");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #F7F9F9;
+  color: #0E2D3B; }
+
+.main-container {
+  max-width: 100%; }
+  .main-container .info-container {
+    margin: 3%; }
+    .main-container .info-container h1 {
+      font: 2em Karla, sans-serif;
+      font-weight: 900; }
+    .main-container .info-container p {
+      font: 1.2em Karla, sans-serif; }
+    .main-container .info-container .last-name {
+      color: #087F8C;
+      opacity: 0.5; }
