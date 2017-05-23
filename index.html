@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Christian Nguyen</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
@@ -10,14 +10,23 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
-        <section class="main-container">
+        <section class="main-container container-fluid">
             <div class="info-container">
-                    <h1> Christian <span class="blue-underline">Nguyen</span></h1>
-                    <p id="info-caption">Frontend developer with a passion for web development
+                    <div class="row">
+                        <div class="col-xs-12">
+                        <h1> Christian <span class="blue-underline">Nguyen</span></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                        <p id="info-caption">Frontend developer with a passion for web development
                         and writing code.
-                    </p>
+                        </p>
+                        </div>
+                    </div>
             </div>  
-            <div class="about-me-info">
+            <div class="about-me-info row">
+                <div class="col-xs-12">
                     <p>
                         I use these following technologies to create cool things.
                     </p>
@@ -32,20 +41,53 @@
                         <li><img src="assets/react.svg"></li>
                         <!--<li><img src="assets"></li>-->
                     </ul>
+                </div>
             </div> 
-            <div class="arrow bounce">
+            <div class="arrow bounce row">
                 <a class="fa fa-arrow-down fa-2x" href="#"></a>
             </div>
         </section>
         <section class="portfolio-container">
             <h2> some of my <span class="blue-underline">work.</span></h2>
             <div class="projects-grid container-fluid">
-                <div class="projects row">
-                    <div class="col-xs-4"<h1>hey</h1>
+                <div class="projects-row row">
+                    <div class="col-xs-4 project">
+                        <a href="#" target="_blank">
+                            <img src="http://placehold.it/300x200">
+                        </a>
+                        <p>JobQuest</p>
+                    </div>
+                     <div class="col-xs-4 project">
+                        <a href="#" target="_blank">
+                            <img src="http://placehold.it/300x200">
+                        </a>
+                        <p> UCSB Theta Tau</p>
+                    </div>
+                     <div class="col-xs-4 project">
+                        <a href="#" target="_blank">
+                            <img src="http://placehold.it/300x200">
+                        </a>
+                        <p> Find me a Recipe!</p>
                     </div>
                 </div>
             </div>
+        </section>  
+        <section class="footer container-fluid">
+            <div class="row">
+                <div class="col-xs-12 social-media">
+                    <ul>
+                        <li><a href="#"><img src="assets/linktest.svg"></a></li>
+                        <li><a href="#"><img src="assets/github-icon.svg"></a></li>
+                        <li><a href="#"><img src="assets/codepen-icon.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 resume-tagline">
+                    <a href="#"> Resume</a>
+                    <p> © 2017 Christian Nguyen. All Rights Reserved.</p>
+                </div>
+            </div>
         </section>
-        
     </body>
 </html>

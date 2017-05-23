@@ -3,7 +3,7 @@
 $background-color: #F7F9F9  ;
 $main-font: Quicksand, sans-serif;
 $secondary-font: Open Sans, sans-serif;
-$main-color: #0E2D3B;
+$main-color: #333333;
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@ body{
     width: 100%;
     height: 100vh;
     .info-container{
-        margin: 5% 10% 4% 10%;
+        margin: 5% 5% 4% 5%;
         width: 100%;
         h1{
             font: 2.9em $main-font;
@@ -41,7 +41,7 @@ body{
         }   
     }
       .about-me-info{
-        margin: 5% 0 0 10%;
+        margin: 5% 0 0 5%;
         width: 100%;
         font: 1.4em $secondary-font;
         // margin-right: 7%;
@@ -89,9 +89,51 @@ body{
 }
 }
 .portfolio-container{
-    margin-left: 10%;   
+    margin-left: 5%;   
     .projects-grid{
         margin: 0;
         padding: 0;
+        .projects-row{
+            .project{
+                padding: 3px;
+                img{
+                    width: 100%;
+                    height: auto;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+.footer {
+    margin-top: 5%;
+    .row{
+        .social-media{
+            ul{
+                list-style-type: none;
+                text-align: center;
+                li{
+                    padding: 3px 10px;
+                    display: inline-block;
+                    a{
+                        img{
+                            height: 30px;
+                            width:  px;
+                        }
+                    }
+                }
+            }
+        }
+        .resume-tagline{
+            text-align: center;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            p{
+
+            }
+        }
     }
 }
