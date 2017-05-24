@@ -52,11 +52,14 @@ body {
         list-style-type: none; }
       .main-container .about-me-info .skills li {
         display: inline-block;
-        padding-right: 0.5%;
+        padding-right: 0.1%;
         padding-bottom: 1.5%; }
         .main-container .about-me-info .skills li img {
+          padding: 7px;
           height: 70px;
-          width: 70px; }
+          width: 75px; }
+          .main-container .about-me-info .skills li img:hover {
+            background: rgba(179, 230, 230, 0.8); }
   .main-container .arrow {
     text-align: center;
     margin: 3% 0; }
@@ -64,9 +67,9 @@ body {
       text-decoration: none;
       color: #333333; }
   .main-container .bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite; }
+    -moz-animation: bounce 2.5s infinite;
+    -webkit-animation: bounce 2.5s infinite;
+    animation: bounce 2.5s infinite; }
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -167,10 +170,12 @@ body {
       background-color: #187795; }
 
 .footer {
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 2%; }
   .footer .row .social-media ul {
     list-style-type: none;
-    text-align: center; }
+    text-align: right;
+    margin-right: 10%; }
     .footer .row .social-media ul li {
       padding: 3px 10px;
       display: inline-block; }
@@ -188,12 +193,24 @@ body {
           -ms-transform: scale(1.1);
           transform: scale(1.1); }
   .footer .row .resume-tagline {
-    text-align: center; }
+    text-align: right; }
     .footer .row .resume-tagline a {
       font-size: 1.1em;
       font-weight: 500;
       text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 1px; }
+      text-transform: lowercase;
+      letter-spacing: 1px;
+      color: black;
+      opacity: 0.7;
+      -moz-transition: all 0.5s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
       .footer .row .resume-tagline a:hover {
-        cursor: pointer; }
+        cursor: pointer;
+        opacity: 1;
+        color: #63ADF2; }
+  .footer .copyright {
+    line-height: 4;
+    margin-left: 5%; }
+    .footer .copyright p {
+      font-size: 0.9em; }
