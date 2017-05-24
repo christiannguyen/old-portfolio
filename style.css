@@ -1,4 +1,10 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato|Open+Sanss|Quicksand");
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("fonts/ProximaNova-Regular.otf") format("woff"), url("fonts/ProximaNova-Regular.otf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
 * {
   margin: 0;
   padding: 0;
@@ -26,14 +32,14 @@ body {
     margin: 5% 0 4% 0;
     width: 100%; }
     .main-container .info-container h1 {
-      font: 2.9em Quicksand, sans-serif;
-      font-weight: 900;
+      font: 4em Proxima Nova, sans-serif;
+      font-weight: 500;
       padding-bottom: 5%;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.7px;
       text-transform: lowercase; }
     .main-container .info-container p#info-caption {
-      font: 1.9em Open Sans, sans-serif;
-      max-width: 45%;
+      font: 2em Proxima Nova, sans-serif;
+      max-width: 50%;
       text-transform: uppercase;
       line-height: 1.2;
       font-weight: 500;
@@ -41,7 +47,7 @@ body {
   .main-container .about-me-info {
     margin: 0;
     width: 100%;
-    font: 1.4em Open Sans, sans-serif; }
+    font: 1.4em Proxima Nova, sans-serif; }
     .main-container .about-me-info .skills {
       padding: 0; }
       .main-container .about-me-info .skills p {
@@ -141,7 +147,7 @@ body {
         opacity: 1; }
       .portfolio-container .projects-grid .projects-row .project .text {
         color: #333333;
-        font: 1.35em Open Sans, sans-serif;
+        font: 1.4em Proxima Nova, sans-serif;
         padding: 12px;
         font-weight: 500;
         border: 1px solid #F7F9F9;
@@ -158,7 +164,7 @@ body {
   margin-top: 2.5%;
   text-align: center; }
   .portfolio-container .more-projects a {
-    font-size: 1.2em;
+    font: 1.2em Proxima Nova;
     letter-spacing: 1px;
     color: #F7F9F9;
     padding: 12px;
@@ -167,7 +173,8 @@ body {
     text-decoration: none;
     border: 1px solid #F7F9F9; }
     .portfolio-container .more-projects a:hover {
-      background-color: #187795; }
+      background-color: #187795;
+      cursor: pointer; }
 
 .footer {
   margin-top: 5%;
@@ -195,8 +202,8 @@ body {
   .footer .row .resume-tagline {
     text-align: right; }
     .footer .row .resume-tagline a {
-      font-size: 1.1em;
-      font-weight: 500;
+      font: 1.1em Proxima Nova;
+      font-weight: 700 !important;
       text-decoration: none;
       text-transform: lowercase;
       letter-spacing: 1px;
@@ -210,7 +217,7 @@ body {
         opacity: 1;
         color: #63ADF2; }
   .footer .copyright {
-    line-height: 4;
     margin-left: 5%; }
     .footer .copyright p {
-      font-size: 0.9em; }
+      line-height: 3 !important;
+      font: 1.1em Proxima Nova, sans-serif; }
