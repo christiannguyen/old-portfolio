@@ -88,6 +88,7 @@ body{
         padding: 0;
         .row{
             .image{
+                padding: 0;
             // width: 100%;
             // margin: 0 auto;
                 img{
@@ -124,7 +125,6 @@ body{
     padding: 0;
     margin-top: 5%;
     margin-bottom: 2%;
-    background-color: $background-color;
     .row{
         margin: 0;
         padding: 0;
@@ -202,6 +202,47 @@ body{
             line-height: 3 !important;
             letter-spacing: 0.5px;
             font: 1.1em $main-font;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+        #case-info{
+        .case-links{
+                       margin-top: 7px;
+            margin-bottom: 15px;
+        }
+        }
+            #case-image{
+        .more-projects{
+            margin-top: 10% !important;
+        }
+    }
+     .footer {
+        margin: 0;
+        padding: 0;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        .row {
+            margin: 0;
+            padding: 0;
+            .social-media {
+                ul {
+                    text-align: center;
+                    li{
+                    padding-left: 0;
+                    padding-right: 15px;
+                    }
+                }
+            }
+            .copyright{
+                text-align: center;
+                // margin-top: 10px;
+                p{
+                padding-top: 1%;
+                }
+            }
         }
     }
 }

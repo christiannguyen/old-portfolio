@@ -150,10 +150,10 @@ body {
                     -moz-transition: all 0.3s;
                     -webkit-transition: all 0.3s;
                     transition: all 0.3s;
-                    -webkit-filter: blur(2.3px);
+                    -webkit-filter: blur(2px);
                     /* Safari 6.0 - 9.0 */
-                    filter: blur(2.3px);
-                    opacity: 0.9;
+                    filter: blur(2px);
+                    opacity: 0.7;
                 }
                 .overlay {
                     position: absolute;
@@ -274,6 +274,7 @@ body {
     .main-container {
         .info-container {
             h1 {
+                margin-top: 0;
                 font-size: 3em;
             }
             p#info-caption {

@@ -31,11 +31,11 @@ body {
       #case-info .container-fluid .row .tech-list ul {
         list-style-type: none; }
         #case-info .container-fluid .row .tech-list ul li {
-          margin: 5px 1px;
-          font: 1em Proxima Nova;
+          margin: 3px 1px;
+          font: 0.9em Proxima Nova;
           border: 1px solid black;
           padding: 3px 10px;
-          display: inline;
+          display: inline-block;
           border-radius: 3px;
           text-transform: uppercase; }
       #case-info .container-fluid .row .case-links a {
@@ -61,9 +61,11 @@ body {
 #case-image .container-fluid {
   margin: 0;
   padding: 0; }
-  #case-image .container-fluid .row .image img {
-    height: auto;
-    max-width: 100%; }
+  #case-image .container-fluid .row .image {
+    padding: 0; }
+    #case-image .container-fluid .row .image img {
+      height: auto;
+      max-width: 100%; }
   #case-image .container-fluid .row .more-projects {
     margin-top: 2.5%;
     text-align: center; }
@@ -147,3 +149,27 @@ body {
       line-height: 3 !important;
       letter-spacing: 0.5px;
       font: 1.1em Proxima Nova, sans-serif; }
+
+@media only screen and (max-width: 768px) {
+  #case-info .case-links {
+    margin-top: 7px;
+    margin-bottom: 15px; }
+  #case-image .more-projects {
+    margin-top: 10% !important; }
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 2%; }
+    .footer .row {
+      margin: 0;
+      padding: 0; }
+      .footer .row .social-media ul {
+        text-align: center; }
+        .footer .row .social-media ul li {
+          padding-left: 0;
+          padding-right: 15px; }
+      .footer .row .copyright {
+        text-align: center; }
+        .footer .row .copyright p {
+          padding-top: 1%; } }
