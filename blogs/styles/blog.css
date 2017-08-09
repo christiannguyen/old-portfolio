@@ -80,6 +80,7 @@ body {
           opacity: 0.7;
           -moz-transition: all 0.5s;
           -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
           transition: all 0.5s; }
           .footer .row .social-media ul li a img:hover {
             opacity: 1;
@@ -100,6 +101,7 @@ body {
         opacity: 0.7;
         -moz-transition: all 0.5s;
         -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
         transition: all 0.3s; }
         .footer .row .resume-tagline a:hover {
           cursor: pointer;
@@ -118,6 +120,7 @@ body {
       opacity: 0.7;
       -moz-transition: all 0.5s;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s; }
       .footer .copyright a:hover {
         cursor: pointer;
